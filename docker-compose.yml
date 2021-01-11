@@ -7,12 +7,12 @@ identydock_vers2:
   volumes:
    - ./app:/app
   links:
-   - dnmonster2
-   - redis2
+   - dnmonster
+   - redis
 
-dnmonster2:
+dnmonster:
   image: amouat/dnmonster:1.0  
 
-redis2:
+redis:
   image: redis:3.0
   
